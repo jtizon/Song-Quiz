@@ -1,0 +1,130 @@
+.banner{
+  text-align: center;
+  background-color: gainsboro;
+  font-size: 50px;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+body{
+  font-family: 'Lilita One', cursive;
+  background-color: gray;
+  border: 5px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+p {
+  background-color: gainsboro;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+#currentCounter{
+  margin: 5px;
+}
+#js-start-button{
+  margin:0 auto;
+  width: 200px;
+  display: block;
+  text-align: center;
+  background-color: gainsboro;
+  font-size: 50px;
+  padding: 15px;
+  border-radius: 12px;
+  font-family: 'Lilita One', cursive;
+}
+
+fieldset{
+  border: 0px;
+}
+
+#js-submit-button{
+  margin:0 auto;
+  width: 200px;
+  display: block;
+  text-align: center;
+  background-color: gainsboro;
+  font-size: 50px;
+  padding: 15px;
+  border-radius: 12px;
+  font-family: 'Lilita One', cursive;
+}
+
+#js-next-button{
+  margin:0 auto;
+  width: 250px;
+  display: block;
+  text-align: center;
+  background-color: gainsboro;
+  font-size: 50px;
+  padding: 15px;
+  border-radius: 12px;
+  font-family: 'Lilita One', cursive;
+}
+
+#js-restart-button{
+  margin:0 auto;
+  width: 250px;
+  display: block;
+  text-align: center;
+  background-color: gainsboro;
+  font-size: 50px;
+  padding: 15px;
+  border-radius: 12px;
+  font-family: 'Lilita One', cursive;
+}
+
+@media only screen and (min-width: 985px) {
+	body {
+		font-family: 'Lilita One', cursive;
+    background-color: gray;
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 985px;
+    margin: auto;
+    margin-top: 10px;
+	}
+}
+
+label{
+  background-color: gainsboro;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  display: block;
+  margin: 5px;
+}
+
+form{
+  border: 5px solid black;
+  padding: 10px;
+  border-radius:12px;
+}
+
+label input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ffffff;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+}
+
+input:checked{
+  background-color: blue;
+}
+
+
+label:hover, label:focus{
+    background-color: blue;
+}
+
